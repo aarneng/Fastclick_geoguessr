@@ -1,0 +1,23 @@
+{
+  "name": "Show me much more! (Geoguessr)",
+  "description": "Spam clicks the \"show more\" button many times in geoguessr challenge scoreboards",
+  "version": "0.1",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": [
+      "https://www.geoguessr.com/results/*"
+    ],
+    "js": [
+      "main.js"
+    ],
+    "run_at": "document_end"
+  }],
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}
