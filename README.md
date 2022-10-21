@@ -1,4 +1,4 @@
-# Goesguessr "show more" spammer
+# Geoguessr "show more" spammer
 
 Ever been annoyed at how geoguessr leaderboards will only let you load 25 players at a time? Me too! So here's a bot that'll spam that button for you.
 
